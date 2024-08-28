@@ -1,0 +1,16 @@
+[package]
+name = "shigen"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+sysinfo = "0.31.3"
+tide = "0.16.0"
+async-std = { version = "1.8.0", features = ["attributes"] }
+serde = { version = "1.0.209", features = ["derive", "alloc"] }
