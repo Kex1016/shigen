@@ -6,7 +6,8 @@ A resource monitor for the local network.
 > This is my first ever Rust project. The code is bad, and it's not really
 > that much either. I just wanted to try out Rust and see how it works.
 > Now that I know I like it, I will definitely revisit this project and
-> eventually make it better.
+> eventually make it better. Until then, I will not update any binaries
+> or anything. This is just a fun little project for me to learn Rust.
 
 > [!WARNING]
 > Only use this on a local network. Never expose it to outside!
